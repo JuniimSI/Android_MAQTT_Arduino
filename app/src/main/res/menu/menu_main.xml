@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.juniorf.maqtt.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Conectar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_name"
+        />
+
+    <item
+        android:id="@+id/action_desconectar"
+        android:orderInCategory="100"
+        android:title="Desconectar"
+        app:showAsAction="never" />
+</menu>
